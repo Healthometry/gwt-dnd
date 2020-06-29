@@ -58,11 +58,11 @@ HTML { /* Workaround for GWT issue 1932 */
 }
 
 .dragdrop-selected,.dragdrop-dragging,.dragdrop-proxy {
-	-webkit-filter: opacity(.3);
-	-moz-opacity: 0.3;
-	-khtml-opacity: 0.3;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
-	opacity: 0.3;
+	-webkit-filter: opacity(.5);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	opacity: 0.5;
 }
 
 .dragdrop-movable-panel {
