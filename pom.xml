@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.finarx.gwt.dnd</groupId>
+    <artifactId>gwt-dnd-parent</artifactId>
+    <version>${revision}${changelist}${sha1}</version>
+    <packaging>pom</packaging>
+    <name>gwt-dnd-parent</name>
+
+    <description>Library providing easy to use drag-and-drop capabilities to Google Web Toolkit (GWT) projects.
+    </description>
+    <url>https://github.com/fredsa/gwt-dnd</url>
+
+    <properties>
+        <revision>4.0.0</revision>
+        <changelist>-SNAPSHOT</changelist>
+        <sha1/>
+
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:ssh://git@github.com:FINARX/gwt-dnd.git</connection>
+        <url>https://github.com/FINARX/gwt-dnd</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>fredsa</id>
+            <name>Fred Sauer</name>
+            <email>fredsa@gmail.com</email>
+            <url>google.com/profiles/fredsa</url>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>-7</timezone>
+            <properties>
+                <picUrl>https://lh5.googleusercontent.com/-71i1rz1ATl8/AAAAAAAAAAI/AAAAAAABhHU/tyyCD9lBnig/photo.jpg
+                </picUrl>
+            </properties>
+        </developer>
+    </developers>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.google.gwt</groupId>
+                <artifactId>gwt</artifactId>
+                <version>2.9.0</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.12</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <modules>
+        <module>core</module>
+        <!--
+        <module>demo</module>
+        <module>example</module>
+        -->
+    </modules>
+</project>
