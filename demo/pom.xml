@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.finarx.gwt.dnd</groupId>
+    <artifactId>gwt-dnd-parent</artifactId>
+    <version>${revision}${changelist}${sha1}</version>
+  </parent>
+
+  <groupId>com.finarx.gwt.dnd</groupId>
+  <artifactId>gwt-dnd-demo</artifactId>
+  <version>${revision}${changelist}${sha1}</version>
+  <packaging>gwt-app</packaging>
+  <name>gwt-dnd-demo</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.google.gwt</groupId>
+      <artifactId>gwt-user</artifactId>
+    </dependency>
+  </dependencies>
+
+  <plugin>
+    <groupId>net.ltgt.gwt.maven</groupId>
+    <artifactId>gwt-maven-plugin</artifactId>
+    <version>1.0.0</version>
+    <extensions>true</extensions>
+    <configuration>
+      <moduleName>com.finarx.gwt.dnd.gwt-dnd-demo</moduleName>
+    </configuration>
+  </plugin>
+</project>
