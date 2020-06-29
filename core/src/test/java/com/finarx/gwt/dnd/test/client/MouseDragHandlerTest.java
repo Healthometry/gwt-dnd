@@ -59,7 +59,7 @@ public class MouseDragHandlerTest extends GWTTestCase {
 
   @Override
   public String getModuleName() {
-    return "com.allen_sauer.gwt.dnd.test.DragDropTest";
+    return "com.finarx.gwt.dnd.test.DragDropTest";
   }
 
   public void testMouseDown() {

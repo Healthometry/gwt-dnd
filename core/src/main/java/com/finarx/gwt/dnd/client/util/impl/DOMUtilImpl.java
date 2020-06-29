@@ -39,7 +39,7 @@ public abstract class DOMUtilImpl {
    * From http://code.google.com/p/doctype/wiki/ArticleComputedStyle
    */
   public native String getEffectiveStyle(Element elem, String style) /*-{
-    return this.@com.allen_sauer.gwt.dnd.client.util.impl.DOMUtilImpl::getComputedStyle(Lcom/google/gwt/dom/client/Element;Ljava/lang/String;)(elem,style)
+    return this.@com.finarx.gwt.dnd.client.util.impl.DOMUtilImpl::getComputedStyle(Lcom/google/gwt/dom/client/Element;Ljava/lang/String;)(elem,style)
         || (elem.currentStyle ? elem.currentStyle[style] : null)
         || elem.style[style];
   }-*/;
