@@ -2,4 +2,8 @@
 .idea/
 *.iml
 
+# maven
 target/
+
+# flatten plugin
+.flattened-pom.xml
