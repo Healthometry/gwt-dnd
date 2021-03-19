@@ -15,7 +15,7 @@ package com.finarx.gwt.dnd.demo.client.example.window;
 
 import com.google.gwt.user.client.ui.AbsolutePanel;
 
-import com.allen_sauer.gwt.dnd.client.PickupDragController;
+import com.finarx.gwt.dnd.client.PickupDragController;
 
 final class WindowController {
 

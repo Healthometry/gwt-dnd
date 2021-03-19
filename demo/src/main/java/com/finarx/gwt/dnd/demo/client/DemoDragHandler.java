@@ -15,10 +15,10 @@ package com.finarx.gwt.dnd.demo.client;
 
 import com.google.gwt.user.client.ui.HTML;
 
-import com.allen_sauer.gwt.dnd.client.DragEndEvent;
-import com.allen_sauer.gwt.dnd.client.DragHandler;
-import com.allen_sauer.gwt.dnd.client.DragStartEvent;
-import com.allen_sauer.gwt.dnd.client.VetoDragException;
+import com.finarx.gwt.dnd.client.DragEndEvent;
+import com.finarx.gwt.dnd.client.DragHandler;
+import com.finarx.gwt.dnd.client.DragStartEvent;
+import com.finarx.gwt.dnd.client.VetoDragException;
 
 /**
  * Shared drag handler which display events as they are received by the various drag controllers.

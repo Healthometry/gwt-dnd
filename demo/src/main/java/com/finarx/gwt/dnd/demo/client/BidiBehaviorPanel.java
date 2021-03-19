@@ -19,8 +19,8 @@ import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.user.client.ui.RadioButton;
 
-import com.allen_sauer.gwt.dnd.client.DragController;
-import com.allen_sauer.gwt.dnd.client.util.DOMUtil;
+import com.finarx.gwt.dnd.client.DragController;
+import com.finarx.gwt.dnd.client.util.DOMUtil;
 
 class BidiBehaviorPanel extends BehaviorPanel {
 

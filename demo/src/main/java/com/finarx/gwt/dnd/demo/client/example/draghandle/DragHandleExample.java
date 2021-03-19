@@ -22,8 +22,8 @@ import com.google.gwt.user.client.ui.HTML;
 import com.google.gwt.user.client.ui.TextArea;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
-import com.allen_sauer.gwt.dnd.client.PickupDragController;
-import com.allen_sauer.gwt.dnd.client.drop.AbsolutePositionDropController;
+import com.finarx.gwt.dnd.client.PickupDragController;
+import com.finarx.gwt.dnd.client.drop.AbsolutePositionDropController;
 import com.finarx.gwt.dnd.demo.client.DemoDragHandler;
 
 /**

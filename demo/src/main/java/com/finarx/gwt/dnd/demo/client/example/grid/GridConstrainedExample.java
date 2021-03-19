@@ -17,8 +17,8 @@ import com.finarx.gwt.dnd.demo.client.example.Example;
 import com.google.gwt.user.client.ui.AbsolutePanel;
 import com.google.gwt.user.client.ui.RootPanel;
 
-import com.allen_sauer.gwt.dnd.client.PickupDragController;
-import com.allen_sauer.gwt.dnd.client.drop.GridConstrainedDropController;
+import com.finarx.gwt.dnd.client.PickupDragController;
+import com.finarx.gwt.dnd.client.drop.GridConstrainedDropController;
 import com.finarx.gwt.dnd.demo.client.RedBoxDraggableWidget;
 
 /**

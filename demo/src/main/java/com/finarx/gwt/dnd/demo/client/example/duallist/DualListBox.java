@@ -24,7 +24,7 @@ import com.google.gwt.user.client.ui.HorizontalPanel;
 import com.google.gwt.user.client.ui.VerticalPanel;
 import com.google.gwt.user.client.ui.Widget;
 
-import com.allen_sauer.gwt.dnd.client.DragController;
+import com.finarx.gwt.dnd.client.DragController;
 
 import java.util.ArrayList;
 

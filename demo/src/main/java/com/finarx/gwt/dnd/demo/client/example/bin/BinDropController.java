@@ -15,9 +15,9 @@ package com.finarx.gwt.dnd.demo.client.example.bin;
 
 import com.google.gwt.user.client.ui.Widget;
 
-import com.allen_sauer.gwt.dnd.client.DragContext;
-import com.allen_sauer.gwt.dnd.client.VetoDragException;
-import com.allen_sauer.gwt.dnd.client.drop.SimpleDropController;
+import com.finarx.gwt.dnd.client.DragContext;
+import com.finarx.gwt.dnd.client.VetoDragException;
+import com.finarx.gwt.dnd.client.drop.SimpleDropController;
 
 /**
  * Sample SimpleDropController which discards draggable widgets which are dropped on it.

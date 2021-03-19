@@ -18,13 +18,13 @@ import com.google.gwt.user.client.ui.InsertPanel;
 import com.google.gwt.user.client.ui.SimplePanel;
 import com.google.gwt.user.client.ui.Widget;
 
-import com.allen_sauer.gwt.dnd.client.DragContext;
-import com.allen_sauer.gwt.dnd.client.drop.AbstractPositioningDropController;
-import com.allen_sauer.gwt.dnd.client.util.CoordinateLocation;
-import com.allen_sauer.gwt.dnd.client.util.DOMUtil;
-import com.allen_sauer.gwt.dnd.client.util.Location;
-import com.allen_sauer.gwt.dnd.client.util.LocationWidgetComparator;
-import com.allen_sauer.gwt.dnd.client.util.WidgetLocation;
+import com.finarx.gwt.dnd.client.DragContext;
+import com.finarx.gwt.dnd.client.drop.AbstractPositioningDropController;
+import com.finarx.gwt.dnd.client.util.CoordinateLocation;
+import com.finarx.gwt.dnd.client.util.DOMUtil;
+import com.finarx.gwt.dnd.client.util.Location;
+import com.finarx.gwt.dnd.client.util.LocationWidgetComparator;
+import com.finarx.gwt.dnd.client.util.WidgetLocation;
 
 /**
  * Allows one or more table rows to be dropped into an existing table.

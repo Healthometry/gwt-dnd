@@ -19,7 +19,7 @@ import com.google.gwt.user.client.ui.FlexTable;
 import com.google.gwt.user.client.ui.SimplePanel;
 import com.google.gwt.user.client.ui.Widget;
 
-import com.allen_sauer.gwt.dnd.client.PickupDragController;
+import com.finarx.gwt.dnd.client.PickupDragController;
 import com.finarx.gwt.dnd.demo.client.DemoDragHandler;
 import com.finarx.gwt.dnd.demo.client.example.DraggableFactory;
 

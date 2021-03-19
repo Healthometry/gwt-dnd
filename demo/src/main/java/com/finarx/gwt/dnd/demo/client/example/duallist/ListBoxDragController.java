@@ -17,10 +17,10 @@ import com.google.gwt.user.client.DOM;
 import com.google.gwt.user.client.ui.HTML;
 import com.google.gwt.user.client.ui.Widget;
 
-import com.allen_sauer.gwt.dnd.client.DragContext;
-import com.allen_sauer.gwt.dnd.client.PickupDragController;
-import com.allen_sauer.gwt.dnd.client.VetoDragException;
-import com.allen_sauer.gwt.dnd.client.util.DOMUtil;
+import com.finarx.gwt.dnd.client.DragContext;
+import com.finarx.gwt.dnd.client.PickupDragController;
+import com.finarx.gwt.dnd.client.VetoDragException;
+import com.finarx.gwt.dnd.client.util.DOMUtil;
 
 import java.util.ArrayList;
 

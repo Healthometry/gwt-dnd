@@ -17,9 +17,9 @@ import com.google.gwt.user.client.DOM;
 import com.google.gwt.user.client.ui.HTML;
 import com.google.gwt.user.client.ui.Widget;
 
-import com.allen_sauer.gwt.dnd.client.DragContext;
-import com.allen_sauer.gwt.dnd.client.VetoDragException;
-import com.allen_sauer.gwt.dnd.client.drop.AbstractDropController;
+import com.finarx.gwt.dnd.client.DragContext;
+import com.finarx.gwt.dnd.client.VetoDragException;
+import com.finarx.gwt.dnd.client.drop.AbstractDropController;
 
 /**
  * DropController for {@link DualListExample}.

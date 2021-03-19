@@ -16,8 +16,8 @@ package com.finarx.gwt.dnd.demo.client.example.window;
 import com.google.gwt.user.client.ui.AbsolutePanel;
 import com.google.gwt.user.client.ui.Widget;
 
-import com.allen_sauer.gwt.dnd.client.AbstractDragController;
-import com.allen_sauer.gwt.dnd.client.drop.BoundaryDropController;
+import com.finarx.gwt.dnd.client.AbstractDragController;
+import com.finarx.gwt.dnd.client.drop.BoundaryDropController;
 
 import java.util.HashMap;
 

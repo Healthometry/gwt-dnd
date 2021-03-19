@@ -18,8 +18,8 @@ import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.FocusPanel;
 import com.google.gwt.user.client.ui.HTML;
 
-import com.allen_sauer.gwt.dnd.client.PickupDragController;
-import com.allen_sauer.gwt.dnd.client.drop.FlowPanelDropController;
+import com.finarx.gwt.dnd.client.PickupDragController;
+import com.finarx.gwt.dnd.client.drop.FlowPanelDropController;
 
 /**
  * {@link com.allen_sauer.gwt.dnd.client.drop.FlowPanelDropController} example.

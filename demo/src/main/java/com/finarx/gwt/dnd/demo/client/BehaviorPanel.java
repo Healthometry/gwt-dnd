@@ -17,7 +17,7 @@ import com.google.gwt.user.client.ui.HTML;
 import com.google.gwt.user.client.ui.RadioButton;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
-import com.allen_sauer.gwt.dnd.client.util.StringUtil;
+import com.finarx.gwt.dnd.client.util.StringUtil;
 
 /**
  * Allows the user to select the desired drag behavior for this demonstration.

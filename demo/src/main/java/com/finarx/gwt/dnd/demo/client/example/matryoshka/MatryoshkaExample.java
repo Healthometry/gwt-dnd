@@ -17,7 +17,7 @@ import com.finarx.gwt.dnd.demo.client.DemoDragHandler;
 import com.finarx.gwt.dnd.demo.client.example.Example;
 import com.google.gwt.user.client.ui.AbsolutePanel;
 
-import com.allen_sauer.gwt.dnd.client.PickupDragController;
+import com.finarx.gwt.dnd.client.PickupDragController;
 
 /**
  * Example of drop targets that are also draggable so that widgets can be dragged into a arbitrary

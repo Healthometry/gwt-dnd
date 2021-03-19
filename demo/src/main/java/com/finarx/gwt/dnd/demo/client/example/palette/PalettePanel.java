@@ -18,7 +18,7 @@ import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.VerticalPanel;
 import com.google.gwt.user.client.ui.Widget;
 
-import com.allen_sauer.gwt.dnd.client.PickupDragController;
+import com.finarx.gwt.dnd.client.PickupDragController;
 
 /**
  * Example of a panel that immediately replaces any {@link PaletteWidget} children that removed with

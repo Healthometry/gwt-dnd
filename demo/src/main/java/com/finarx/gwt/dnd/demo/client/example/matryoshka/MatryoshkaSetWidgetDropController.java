@@ -17,9 +17,9 @@ import com.google.gwt.user.client.ui.AbsolutePanel;
 import com.google.gwt.user.client.ui.SimplePanel;
 import com.google.gwt.user.client.ui.Widget;
 
-import com.allen_sauer.gwt.dnd.client.DragContext;
-import com.allen_sauer.gwt.dnd.client.VetoDragException;
-import com.allen_sauer.gwt.dnd.client.drop.SimpleDropController;
+import com.finarx.gwt.dnd.client.DragContext;
+import com.finarx.gwt.dnd.client.VetoDragException;
+import com.finarx.gwt.dnd.client.drop.SimpleDropController;
 
 /**
  * DropController which allows a widget to be dropped on a SimplePanel drop target when the drop

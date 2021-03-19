@@ -19,8 +19,8 @@ import com.google.gwt.user.client.ui.HTML;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
-import com.allen_sauer.gwt.dnd.client.util.DOMUtil;
-import com.allen_sauer.gwt.dnd.client.util.StringUtil;
+import com.finarx.gwt.dnd.client.util.DOMUtil;
+import com.finarx.gwt.dnd.client.util.StringUtil;
 import com.finarx.gwt.dnd.demo.client.example.Example;
 import com.finarx.gwt.dnd.demo.client.util.GWTUtil;
 

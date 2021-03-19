@@ -17,7 +17,7 @@ import com.finarx.gwt.dnd.demo.client.RedBoxDraggableWidget;
 import com.google.gwt.user.client.ui.Image;
 import com.google.gwt.user.client.ui.Widget;
 
-import com.allen_sauer.gwt.dnd.client.DragController;
+import com.finarx.gwt.dnd.client.DragController;
 
 /**
  * Shared utility methods to produce draggable widgets.

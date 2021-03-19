@@ -8,26 +8,41 @@
     <version>${revision}${changelist}${sha1}</version>
   </parent>
 
-  <groupId>com.finarx.gwt.dnd</groupId>
   <artifactId>gwt-dnd-demo</artifactId>
   <version>${revision}${changelist}${sha1}</version>
   <packaging>gwt-app</packaging>
   <name>gwt-dnd-demo</name>
 
   <dependencies>
+    <!-- Powered by GWT. -->
     <dependency>
       <groupId>com.google.gwt</groupId>
       <artifactId>gwt-user</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.google.gwt</groupId>
+      <artifactId>gwt-dev</artifactId>
+    </dependency>
+
+    <!-- The demo depends on the very library it demonstrates. -->
+    <dependency>
+      <groupId>com.finarx.gwt.dnd</groupId>
+      <artifactId>gwt-dnd</artifactId>
+      <version>${revision}${changelist}${sha1}</version>
+    </dependency>
   </dependencies>
 
-  <plugin>
-    <groupId>net.ltgt.gwt.maven</groupId>
-    <artifactId>gwt-maven-plugin</artifactId>
-    <version>1.0.0</version>
-    <extensions>true</extensions>
-    <configuration>
-      <moduleName>com.finarx.gwt.dnd.gwt-dnd-demo</moduleName>
-    </configuration>
-  </plugin>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>net.ltgt.gwt.maven</groupId>
+        <artifactId>gwt-maven-plugin</artifactId>
+        <version>1.0.0</version>
+        <extensions>true</extensions>
+        <configuration>
+          <moduleName>com.finarx.gwt.dnd.demo.gwt-dnd-demo</moduleName>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>

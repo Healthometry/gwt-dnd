@@ -16,8 +16,8 @@ package com.finarx.gwt.dnd.demo.client.example;
 import com.google.gwt.user.client.ui.SimplePanel;
 import com.google.gwt.user.client.ui.Widget;
 
-import com.allen_sauer.gwt.dnd.client.DragController;
-import com.allen_sauer.gwt.dnd.client.util.StringUtil;
+import com.finarx.gwt.dnd.client.DragController;
+import com.finarx.gwt.dnd.client.util.StringUtil;
 
 /**
  * Class representing a single drag-and-drop example.

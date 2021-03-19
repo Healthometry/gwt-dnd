@@ -18,10 +18,10 @@ import com.google.gwt.user.client.ui.AbsolutePanel;
 import com.google.gwt.user.client.ui.TabPanel;
 import com.google.gwt.user.client.ui.Widget;
 
-import com.allen_sauer.gwt.dnd.client.AbstractDragController;
-import com.allen_sauer.gwt.dnd.client.DragContext;
-import com.allen_sauer.gwt.dnd.client.drop.AbstractDropController;
-import com.allen_sauer.gwt.dnd.client.util.DOMUtil;
+import com.finarx.gwt.dnd.client.AbstractDragController;
+import com.finarx.gwt.dnd.client.DragContext;
+import com.finarx.gwt.dnd.client.drop.AbstractDropController;
+import com.finarx.gwt.dnd.client.util.DOMUtil;
 
 public class TabSelectingDropController extends AbstractDropController {
 

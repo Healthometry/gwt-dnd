@@ -15,8 +15,8 @@ package com.finarx.gwt.dnd.demo.client.example.matryoshka;
 
 import com.google.gwt.user.client.ui.FocusPanel;
 
-import com.allen_sauer.gwt.dnd.client.PickupDragController;
-import com.allen_sauer.gwt.dnd.client.drop.DropController;
+import com.finarx.gwt.dnd.client.PickupDragController;
+import com.finarx.gwt.dnd.client.drop.DropController;
 
 /**
  * Colorful panel for dragging and dropping.

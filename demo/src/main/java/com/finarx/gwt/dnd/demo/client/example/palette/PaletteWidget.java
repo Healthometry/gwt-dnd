@@ -20,7 +20,7 @@ import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RadioButton;
 import com.google.gwt.user.client.ui.Widget;
 
-import com.allen_sauer.gwt.dnd.client.HasDragHandle;
+import com.finarx.gwt.dnd.client.HasDragHandle;
 
 /**
  * Widget wrapper class used by {@link PalettePanel}.

@@ -20,7 +20,7 @@ import com.google.gwt.user.client.ui.CheckBox;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RadioButton;
 
-import com.allen_sauer.gwt.dnd.client.PickupDragController;
+import com.finarx.gwt.dnd.client.PickupDragController;
 
 /**
  * Example of a widget palette that creates widget copies on demand.

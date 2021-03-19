@@ -107,9 +107,8 @@
 
     <modules>
         <module>core</module>
-        <!--
         <module>demo</module>
-        <module>example</module>
-        -->
+        <!-- TODO: make the example app into a module too -->
+        <!-- <module>example</module> -->
     </modules>
 </project>

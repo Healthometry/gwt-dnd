@@ -21,9 +21,9 @@ import com.google.gwt.user.client.ui.HorizontalPanel;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
-import com.allen_sauer.gwt.dnd.client.PickupDragController;
-import com.allen_sauer.gwt.dnd.client.drop.HorizontalPanelDropController;
-import com.allen_sauer.gwt.dnd.client.drop.VerticalPanelDropController;
+import com.finarx.gwt.dnd.client.PickupDragController;
+import com.finarx.gwt.dnd.client.drop.HorizontalPanelDropController;
+import com.finarx.gwt.dnd.client.drop.VerticalPanelDropController;
 import com.finarx.gwt.dnd.demo.client.DemoDragHandler;
 
 /**

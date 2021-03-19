@@ -5,8 +5,8 @@ import com.google.gwt.user.client.ui.AbsolutePanel;
 import com.google.gwt.user.client.ui.HTML;
 import com.google.gwt.user.client.ui.Widget;
 
-import com.allen_sauer.gwt.dnd.client.PickupDragController;
-import com.allen_sauer.gwt.dnd.client.drop.AbsolutePositionDropController;
+import com.finarx.gwt.dnd.client.PickupDragController;
+import com.finarx.gwt.dnd.client.drop.AbsolutePositionDropController;
 import com.finarx.gwt.dnd.demo.client.DemoDragHandler;
 
 public class ClickTouchExample extends Example {

@@ -41,8 +41,8 @@ import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.VerticalPanel;
 import com.google.gwt.user.client.ui.Widget;
 
-import com.allen_sauer.gwt.dnd.client.PickupDragController;
-import com.allen_sauer.gwt.dnd.client.drop.BoundaryDropController;
+import com.finarx.gwt.dnd.client.PickupDragController;
+import com.finarx.gwt.dnd.client.drop.BoundaryDropController;
 import com.finarx.gwt.dnd.demo.client.example.DraggableFactory;
 import com.finarx.gwt.dnd.demo.client.example.matryoshka.MatryoshkaExample;
 import com.finarx.gwt.dnd.demo.client.example.resetcache.ResetCacheExample;
