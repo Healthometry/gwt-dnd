@@ -47,4 +47,5 @@
 		<when-property-is name="user.agent" value="gecko1_8" />
 	</replace-with>
 
+	<source path='client'/>
 </module>

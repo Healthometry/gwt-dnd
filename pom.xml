@@ -76,6 +76,15 @@
                     <groupId>net.ltgt.gwt.maven</groupId>
                     <artifactId>gwt-maven-plugin</artifactId>
                     <version>1.0.0</version>
+                    <inherited>true</inherited>
+                    <configuration>
+                        <codeserverArgs>
+                            <!-- For available log levels see http://www.gwtproject.org/doc/latest/DevGuideCompilingAndDebugging.html -->
+                            <codeserverArg>-logLevel</codeserverArg>
+                            <codeserverArg>INFO</codeserverArg>
+                            <codeserverArg>-strict</codeserverArg>
+                        </codeserverArgs>
+                    </configuration>
                 </plugin>
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>

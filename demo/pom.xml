@@ -29,6 +29,7 @@
       <groupId>com.finarx.gwt.dnd</groupId>
       <artifactId>gwt-dnd</artifactId>
       <version>${revision}${changelist}${sha1}</version>
+      <type>gwt-lib</type>
     </dependency>
   </dependencies>
 
@@ -37,10 +38,15 @@
       <plugin>
         <groupId>net.ltgt.gwt.maven</groupId>
         <artifactId>gwt-maven-plugin</artifactId>
-        <version>1.0.0</version>
         <extensions>true</extensions>
         <configuration>
           <moduleName>com.finarx.gwt.dnd.demo.gwt-dnd-demo</moduleName>
+          <codeserverArgs>
+            <!-- For available log levels see http://www.gwtproject.org/doc/latest/DevGuideCompilingAndDebugging.html -->
+            <codeserverArg>-logLevel</codeserverArg>
+            <!-- Want to troubleshoot SDM compilation issues? Set this to DEBUG. -->
+            <codeserverArg>INFO</codeserverArg>
+          </codeserverArgs>
         </configuration>
       </plugin>
     </plugins>
