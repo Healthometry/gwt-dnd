@@ -10,7 +10,7 @@
 
   <artifactId>gwt-dnd-demo</artifactId>
   <version>${revision}${changelist}${sha1}</version>
-  <packaging>gwt-app</packaging>
+  <packaging>war</packaging>
   <name>gwt-dnd-demo</name>
 
   <dependencies>
@@ -35,6 +35,22 @@
 
   <build>
     <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <configuration>
+          <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>com.google.cloud.tools</groupId>
+        <artifactId>appengine-maven-plugin</artifactId>
+        <configuration>
+          <projectId>gwt-dnd-hrd</projectId>
+        </configuration>
+      </plugin>
+
       <plugin>
         <groupId>net.ltgt.gwt.maven</groupId>
         <artifactId>gwt-maven-plugin</artifactId>
