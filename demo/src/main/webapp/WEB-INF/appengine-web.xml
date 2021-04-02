@@ -4,6 +4,8 @@
   <threadsafe>true</threadsafe>
   <version>gitmd5hash</version>
 
+  <runtime>java8</runtime>
+
   <!-- Configure serving/caching of GWT files -->
   <static-files>
     <include path="**" />
