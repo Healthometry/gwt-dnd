@@ -100,6 +100,8 @@
           <version>1.0.0</version>
           <inherited>true</inherited>
           <configuration>
+            <!-- It appears the plugin needs a bit of help knowing where SDM is to find and rewrite demo.nocache.js. -->
+            <launcherDir>${basedir}/demo-server/target/demo-server-${project.version}</launcherDir>
             <codeserverArgs>
               <!-- For available log levels see http://www.gwtproject.org/doc/latest/DevGuideCompilingAndDebugging.html -->
               <codeserverArg>-logLevel</codeserverArg>
