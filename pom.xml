@@ -1,145 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-    <modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.finarx.gwt.dnd</groupId>
-    <artifactId>gwt-dnd-parent</artifactId>
-    <version>${revision}${changelist}${sha1}</version>
-    <packaging>pom</packaging>
-    <name>gwt-dnd-parent</name>
+  <groupId>com.finarx.gwt.dnd</groupId>
+  <artifactId>gwt-dnd-parent</artifactId>
+  <version>${revision}${changelist}${sha1}</version>
+  <packaging>pom</packaging>
+  <name>gwt-dnd-parent</name>
 
-    <description>Library providing easy to use drag-and-drop capabilities to Google Web Toolkit (GWT) projects.
-    </description>
-    <url>https://github.com/fredsa/gwt-dnd</url>
+  <description>Library providing easy to use drag-and-drop capabilities to Google Web Toolkit (GWT) projects.
+  </description>
+  <url>https://github.com/fredsa/gwt-dnd</url>
 
-    <properties>
-        <revision>4.0.0</revision>
-        <changelist>-SNAPSHOT</changelist>
-        <sha1/>
+  <properties>
+    <revision>4.0.0</revision>
+    <changelist>-SNAPSHOT</changelist>
+    <sha1/>
 
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
 
-    <licenses>
-        <license>
-            <name>Apache License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-        </license>
-    </licenses>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
 
-    <scm>
-        <connection>scm:git:ssh://git@github.com:FINARX/gwt-dnd.git</connection>
-        <url>https://github.com/FINARX/gwt-dnd</url>
-    </scm>
+  <scm>
+    <connection>scm:git:ssh://git@github.com:FINARX/gwt-dnd.git</connection>
+    <url>https://github.com/FINARX/gwt-dnd</url>
+  </scm>
 
-    <developers>
-        <developer>
-            <id>fredsa</id>
-            <name>Fred Sauer</name>
-            <email>fredsa@gmail.com</email>
-            <url>google.com/profiles/fredsa</url>
-            <roles>
-                <role>developer</role>
-            </roles>
-            <timezone>-7</timezone>
-            <properties>
-                <picUrl>https://lh5.googleusercontent.com/-71i1rz1ATl8/AAAAAAAAAAI/AAAAAAABhHU/tyyCD9lBnig/photo.jpg
-                </picUrl>
-            </properties>
-        </developer>
-    </developers>
+  <developers>
+    <developer>
+      <id>fredsa</id>
+      <name>Fred Sauer</name>
+      <email>fredsa@gmail.com</email>
+      <url>google.com/profiles/fredsa</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>-7</timezone>
+      <properties>
+        <picUrl>https://lh5.googleusercontent.com/-71i1rz1ATl8/AAAAAAAAAAI/AAAAAAABhHU/tyyCD9lBnig/photo.jpg
+        </picUrl>
+      </properties>
+    </developer>
+  </developers>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.google.gwt</groupId>
-                <artifactId>gwt</artifactId>
-                <version>2.9.0</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.google.gwt</groupId>
+        <artifactId>gwt</artifactId>
+        <version>2.9.0</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
 
-            <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>4.12</version>
-                <scope>test</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.12</version>
+        <scope>test</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.8.1</version>
-                    <configuration>
-                        <source>${maven.compiler.source}</source>
-                        <target>${maven.compiler.target}</target>
-                    </configuration>
-                </plugin>
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.8.1</version>
+          <configuration>
+            <source>${maven.compiler.source}</source>
+            <target>${maven.compiler.target}</target>
+          </configuration>
+        </plugin>
 
-                <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.2.3</version>
-                </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-war-plugin</artifactId>
+          <version>3.2.3</version>
+        </plugin>
 
-                <plugin>
-                    <groupId>com.google.cloud.tools</groupId>
-                    <artifactId>appengine-maven-plugin</artifactId>
-                    <version>2.4.0</version>
-                </plugin>
+        <plugin>
+          <groupId>com.google.cloud.tools</groupId>
+          <artifactId>appengine-maven-plugin</artifactId>
+          <version>2.4.0</version>
+        </plugin>
 
-                <plugin>
-                    <groupId>net.ltgt.gwt.maven</groupId>
-                    <artifactId>gwt-maven-plugin</artifactId>
-                    <version>1.0.0</version>
-                    <inherited>true</inherited>
-                    <configuration>
-                        <codeserverArgs>
-                            <!-- For available log levels see http://www.gwtproject.org/doc/latest/DevGuideCompilingAndDebugging.html -->
-                            <codeserverArg>-logLevel</codeserverArg>
-                            <codeserverArg>INFO</codeserverArg>
-                            <codeserverArg>-strict</codeserverArg>
-                        </codeserverArgs>
-                    </configuration>
-                </plugin>
-                <plugin>
-                    <groupId>org.codehaus.mojo</groupId>
-                    <artifactId>flatten-maven-plugin</artifactId>
-                    <version>1.1.0</version>
-                    <configuration>
-                        <updatePomFile>true</updatePomFile>
-                    </configuration>
-                    <executions>
-                        <execution>
-                            <id>flatten</id>
-                            <phase>process-resources</phase>
-                            <goals>
-                                <goal>flatten</goal>
-                            </goals>
-                        </execution>
-                        <execution>
-                            <id>flatten.clean</id>
-                            <phase>clean</phase>
-                            <goals>
-                                <goal>clean</goal>
-                            </goals>
-                        </execution>
-                    </executions>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
+        <plugin>
+          <groupId>net.ltgt.gwt.maven</groupId>
+          <artifactId>gwt-maven-plugin</artifactId>
+          <version>1.0.0</version>
+          <inherited>true</inherited>
+          <configuration>
+            <codeserverArgs>
+              <!-- For available log levels see http://www.gwtproject.org/doc/latest/DevGuideCompilingAndDebugging.html -->
+              <codeserverArg>-logLevel</codeserverArg>
+              <codeserverArg>INFO</codeserverArg>
+              <codeserverArg>-strict</codeserverArg>
+            </codeserverArgs>
+          </configuration>
+        </plugin>
 
-    <modules>
-        <module>core</module>
-        <module>demo</module>
-        <!-- TODO: make the example app into a module too -->
-        <!-- <module>example</module> -->
-    </modules>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>flatten-maven-plugin</artifactId>
+          <version>1.1.0</version>
+          <configuration>
+            <updatePomFile>true</updatePomFile>
+          </configuration>
+          <executions>
+            <execution>
+              <id>flatten</id>
+              <phase>process-resources</phase>
+              <goals>
+                <goal>flatten</goal>
+              </goals>
+            </execution>
+            <execution>
+              <id>flatten.clean</id>
+              <phase>clean</phase>
+              <goals>
+                <goal>clean</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <modules>
+    <module>core</module>
+    <module>demo-client</module>
+    <module>demo-server</module>
+
+    <!-- TODO: make the example app into a module too -->
+    <!-- <module>example</module> -->
+  </modules>
 </project>

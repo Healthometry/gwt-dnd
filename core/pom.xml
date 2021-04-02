@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-    <modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>com.finarx.gwt.dnd</groupId>
-        <artifactId>gwt-dnd-parent</artifactId>
-        <version>${revision}${changelist}${sha1}</version>
-    </parent>
-
-    <artifactId>gwt-dnd</artifactId>
+  <parent>
+    <groupId>com.finarx.gwt.dnd</groupId>
+    <artifactId>gwt-dnd-parent</artifactId>
     <version>${revision}${changelist}${sha1}</version>
-    <packaging>gwt-lib</packaging>
-    <name>gwt-dnd</name>
+  </parent>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.google.gwt</groupId>
-            <artifactId>gwt-user</artifactId>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.google.gwt</groupId>
-            <artifactId>gwt-dev</artifactId>
-            <scope>provided</scope>
-        </dependency>
+  <artifactId>gwt-dnd</artifactId>
+  <version>${revision}${changelist}${sha1}</version>
+  <packaging>gwt-lib</packaging>
+  <name>gwt-dnd</name>
 
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.gwt</groupId>
+      <artifactId>gwt-user</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.gwt</groupId>
+      <artifactId>gwt-dev</artifactId>
+      <scope>provided</scope>
+    </dependency>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>net.ltgt.gwt.maven</groupId>
-                <artifactId>gwt-maven-plugin</artifactId>
-                <extensions>true</extensions>
-                <configuration>
-                    <moduleName>com.finarx.gwt.dnd.gwt-dnd</moduleName>
-                </configuration>
-            </plugin>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>flatten-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>net.ltgt.gwt.maven</groupId>
+        <artifactId>gwt-maven-plugin</artifactId>
+        <extensions>true</extensions>
+        <configuration>
+          <moduleName>com.finarx.gwt.dnd.gwt-dnd</moduleName>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>flatten-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>

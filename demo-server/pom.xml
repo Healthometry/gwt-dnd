@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.finarx.gwt.dnd</groupId>
+    <artifactId>gwt-dnd-parent</artifactId>
+    <version>${revision}${changelist}${sha1}</version>
+  </parent>
+
+  <artifactId>demo-server</artifactId>
+  <version>${revision}${changelist}${sha1}</version>
+  <packaging>war</packaging>
+  <name>demo-server</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.finarx.gwt.dnd</groupId>
+      <artifactId>demo-client</artifactId>
+      <version>${revision}${changelist}${sha1}</version>
+      <type>war</type>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <configuration>
+          <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>com.google.cloud.tools</groupId>
+        <artifactId>appengine-maven-plugin</artifactId>
+        <configuration>
+          <projectId>gwt-dnd-hrd</projectId>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
